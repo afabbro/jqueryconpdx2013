@@ -62,34 +62,6 @@ article.vancouver::before {
   background-image: url("../img/vancouver.gif");
 }
 
-article.steamclock::before {
-  -webkit-filter: blur(1px) grayscale(0.3) brightness(0.4);
-  -moz-filter: blur(1px) grayscale(0.3) brightness(0.4);
-  filter: blur(1px) grayscale(0.3) brightness(0.4);
-  background-image: url("../img/steamclock.jpg");
-}
-
-article.adventure-time::before {
-  -webkit-filter: grayscale(0) brightness(1);
-  -moz-filter: grayscale(0) brightness(1);
-  filter: grayscale(0) brightness(1);
-  background-image: url("../img/adventure-time.gif");
-}
-
-article.haters::before {
-  -webkit-filter: grayscale(0) brightness(1);
-  -moz-filter: grayscale(0) brightness(1);
-  filter: grayscale(0) brightness(1);
-  background-image: url("../img/haters.gif");
-}
-
-article.debugging::before {
-  -webkit-filter: grayscale(0) brightness(1);
-  -moz-filter: grayscale(0) brightness(1);
-  filter: grayscale(0) brightness(1);
-  background-image: url("../img/debuggin.gif");
-}
-
 
 /* Everything else */
 * {
@@ -385,4 +357,8 @@ section .firefoxos {
 
 .bespoke-bullet.bespoke-bullet-last-active {
   display: block;
+}
+
+.mozilla h3{
+  padding: 0 100px;
 }
