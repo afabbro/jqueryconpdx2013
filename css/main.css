@@ -55,11 +55,31 @@ article.intro::before {
   -webkit-filter: blur(0.5px) grayscale(0.3) brightness(0.4);
   -moz-filter: blur(0.5px) grayscale(0.3) brightness(0.4);
   filter: blur(0.5px) grayscale(0.3) brightness(0.4);
-  background-image: url("../img/whisky_masterclass.jpg");
+  background-image: url("../img/michael-jackson.gif");
 }
 
 article.vancouver::before {
-  background-image: url("../img/vancouver.gif");
+  background-image: url("../img/vancouver-rain.gif");
+}
+
+article.mozilla::before {
+  background-image: url("../img/red-panda.gif");
+}
+
+article.brains::before {
+  background-image: url("../img/brain-pulse.gif");
+}
+
+article.happy-party:before {
+  -webkit-filter: blur(0.5) grayscale(0) brightness(0.6);
+  -moz-filter: blur(0.5) grayscale(0) brightness(0.6);
+  filter: blur(0.5) grayscale(0) brightness(0.6);
+  background-image: url("../img/everybody-dancing.gif");
+}
+
+
+article.final::before {
+  background-image: url("../img/fin.gif");
 }
 
 
@@ -110,8 +130,8 @@ html, body {
 
 body {
   background: #111111;
-  font-family: "Tauri", sans-serif;
-  font-weight: 400;
+  font-family: "Alef", sans-serif;
+  font-weight: 700;
   color: white;
   overflow: hidden;
 }
@@ -322,7 +342,7 @@ section .byline::before, section .byline::after {
   box-flex: 1;
   height: 0;
   padding-top: 1px;
-  border-bottom: 1px dotted #595959;
+  border-bottom: 2px dotted #595959;
 }
 
 section .byline > * {
@@ -334,13 +354,13 @@ section .byline > *:first-child {
 }
 
 section .unbrokenline {
-  border-bottom: 1px dotted #595959;
+  border-bottom: 2px dotted #595959;
   margin: 30px 0 30px;
 }
 
 section .classy {
   font-size: 1.5em;
-  font-family: "Alegreya", Georgia, serif;
+  font-family: "Merriweather", Georgia, serif;
   font-weight: 400;
   font-style: italic;
 }
