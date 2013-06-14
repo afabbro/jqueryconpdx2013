@@ -77,6 +77,15 @@ article.happy-party:before {
   background-image: url("../img/everybody-dancing.gif");
 }
 
+article.why-beard:before {
+  -webkit-filter: blur(0.5) grayscale(0) brightness(1);
+  -moz-filter: blur(0.5) grayscale(0) brightness(1);
+  filter: blur(0.5) grayscale(0) brightness(1);
+  background-image: url("../img/put-on-thinking-beard.gif");
+}
+
+
+
 
 article.final::before {
   background-image: url("../img/fin.gif");
@@ -387,4 +396,7 @@ section .firefoxos {
   text-align: left;
   width: 70%;
   margin: 20px auto;  
+}
+.quiz {
+  background: #FFF;
 }
