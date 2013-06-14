@@ -84,9 +84,6 @@ article.why-beard:before {
   background-image: url("../img/put-on-thinking-beard.gif");
 }
 
-
-
-
 article.final::before {
   background-image: url("../img/fin.gif");
 }

@@ -12,14 +12,14 @@
   // This shit because my Kensington presentation clicker wasn't programmable
   // Seriously I should have bought a Logitech
 
-  // document.body.onclick = function(e) {
-  //   bespoke.prev();
-  //   return false;
-  // }
+  document.body.onclick = function(e) {
+    bespoke.prev();
+    return false;
+  }
 
-  // document.oncontextmenu = function (e) { 
-  //    bespoke.next();
-  //    return false;
-  // };
+  document.oncontextmenu = function (e) { 
+     bespoke.next();
+     return false;
+  };
 
 })();
