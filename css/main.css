@@ -294,7 +294,7 @@ section h2 {
   margin: 0;
 }
 
-section h3 {
+section h3, blockquote {
   font-size: 2.5em;
   font-weight: 400;
   margin: 0;
@@ -381,4 +381,10 @@ section .firefoxos {
 
 .mozilla h3{
   padding: 0 100px;
+}
+
+.good-component-1 h3{
+  text-align: left;
+  width: 70%;
+  margin: 20px auto;  
 }
